@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Gemini API key configure karo
-genai.configure(api_key="AIzaSyBFoELy4Szn03LkPV5F3oenoiMH-MOKL3s")
+genai.configure(api_key="yourapikey")
 model = genai.GenerativeModel("gemini-pro")
 
 st.title("Gemini AI Chat")
